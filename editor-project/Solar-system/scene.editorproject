@@ -1,0 +1,562 @@
+{
+	"actions": null,
+	"customMetadatas": {
+		"AssetsExtension": {
+			"prefabs": [],
+			"particles": []
+		}
+	},
+	"globalConfiguration": {
+		"serializedCamera": {
+			"tags": "added",
+			"ellipsoid": [
+				0.5,
+				1,
+				0.5
+			],
+			"ellipsoidOffset": [
+				0,
+				0,
+				0
+			],
+			"checkCollisions": false,
+			"applyGravity": false,
+			"rotation": [
+				-0.13585764257646843,
+				2.232569887040637,
+				0
+			],
+			"speed": 0.5,
+			"position": [
+				-5.367941483881949,
+				-0.6162628824080585,
+				3.5604972648860005
+			],
+			"upVector": [
+				0,
+				1,
+				0
+			],
+			"fov": 0.8,
+			"minZ": 1,
+			"maxZ": 10000,
+			"inertia": 0.9,
+			"mode": 0,
+			"layerMask": 268435455,
+			"fovMode": 0,
+			"cameraRigMode": 0,
+			"name": "Editor Camera",
+			"id": "EditorCamera",
+			"uniqueId": 273,
+			"state": "",
+			"type": "FreeCamera",
+			"inputsmgr": {
+				"FreeCameraKeyboardMoveInput": {
+					"tags": null,
+					"keysUp": [
+						38,
+						87,
+						90
+					],
+					"keysDown": [
+						40,
+						83
+					],
+					"keysLeft": [
+						37,
+						65,
+						81
+					],
+					"keysRight": [
+						39,
+						68
+					]
+				},
+				"FreeCameraMouseInput": {
+					"tags": null,
+					"buttons": [
+						0,
+						1,
+						2
+					],
+					"angularSensibility": 3000
+				}
+			},
+			"animations": [],
+			"ranges": []
+		},
+		"imageProcessingConfiguration": {
+			"tags": null,
+			"colorCurves": {
+				"tags": null,
+				"_globalHue": 30,
+				"_globalDensity": 0,
+				"_globalSaturation": 0,
+				"_globalExposure": 0,
+				"_highlightsHue": 30,
+				"_highlightsDensity": 0,
+				"_highlightsSaturation": 0,
+				"_highlightsExposure": 0,
+				"_midtonesHue": 30,
+				"_midtonesDensity": 0,
+				"_midtonesSaturation": 0,
+				"_midtonesExposure": 0
+			},
+			"_colorCurvesEnabled": false,
+			"_colorGradingEnabled": false,
+			"_colorGradingWithGreenDepth": true,
+			"_colorGradingBGR": true,
+			"_exposure": 0.6,
+			"_toneMappingEnabled": true,
+			"_toneMappingType": 0,
+			"_contrast": 1.6,
+			"vignetteStretch": 0,
+			"vignetteCentreX": 0,
+			"vignetteCentreY": 0,
+			"vignetteWeight": 1.5,
+			"vignetteColor": [
+				0,
+				0,
+				0,
+				0
+			],
+			"vignetteCameraFov": 0.5,
+			"_vignetteBlendMode": 0,
+			"_vignetteEnabled": false,
+			"_applyByPostProcess": false,
+			"_isEnabled": true
+		},
+		"ambientColor": [
+			0,
+			0,
+			0
+		],
+		"clearColor": [
+			0,
+			0,
+			0,
+			1
+		],
+		"fog": {
+			"enabled": true,
+			"start": 0,
+			"end": 1000,
+			"density": 0.1,
+			"mode": 0,
+			"color": [
+				0.2,
+				0.2,
+				0.3
+			]
+		}
+	},
+	"lensFlares": null,
+	"materials": [],
+	"textures": [],
+	"nodes": [],
+	"particleSystems": [],
+	"physicsEnabled": true,
+	"renderTargets": [],
+	"requestedMaterials": null,
+	"shadowGenerators": [],
+	"sounds": [],
+	"gui": [],
+	"effectLayers": [],
+	"environmentHelper": null,
+	"assets": {
+		"prefabs": [],
+		"particles": []
+	},
+	"removedObjects": {},
+	"filesList": [
+		"scene/scene.babylon",
+		"scene/solar_system.glb"
+	],
+	"editionToolsStates": [
+		{
+			"id": "ENVIRONMENT-HELPER-TOOL",
+			"state": null
+		},
+		{
+			"id": "SCENE-TOOL",
+			"state": {
+				"Colors": {
+					"closed": false,
+					"children": {
+						"Ambient": {
+							"closed": false,
+							"children": {}
+						},
+						"Clear": {
+							"closed": false,
+							"children": {}
+						}
+					}
+				},
+				"Image Processing": {
+					"closed": false,
+					"children": {}
+				},
+				"Glow Layer": {
+					"closed": false,
+					"children": {}
+				},
+				"HighLight": {
+					"closed": false,
+					"children": {}
+				},
+				"Environment Texture": {
+					"closed": false,
+					"children": {}
+				},
+				"Collisions": {
+					"closed": false,
+					"children": {
+						"Gravity": {
+							"closed": true,
+							"children": {}
+						}
+					}
+				},
+				"Physics": {
+					"closed": false,
+					"children": {}
+				},
+				"Audio": {
+					"closed": false,
+					"children": {}
+				},
+				"Fog": {
+					"closed": false,
+					"children": {
+						"Color": {
+							"closed": false,
+							"children": {}
+						}
+					}
+				}
+			}
+		},
+		{
+			"id": "NODE-TOOL",
+			"state": null
+		},
+		{
+			"id": "PHYSICS-TOOL",
+			"state": null
+		},
+		{
+			"id": "LIGHT-TOOL",
+			"state": null
+		},
+		{
+			"id": "RENDER-TARGET-TOOL",
+			"state": null
+		},
+		{
+			"id": "PARTICLE-SYSTEM-TOOL",
+			"state": null
+		},
+		{
+			"id": "SOUND-TOOL",
+			"state": null
+		},
+		{
+			"id": "ANIMATION-TOOL",
+			"state": null
+		},
+		{
+			"id": "SKELETON-TOOL",
+			"state": null
+		},
+		{
+			"id": "STANDARD-MATERIAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "PBR-TOOL",
+			"state": {
+				"Common": {
+					"closed": false,
+					"children": {}
+				},
+				"PBR Options": {
+					"closed": false,
+					"children": {}
+				},
+				"Albedo": {
+					"closed": false,
+					"children": {
+						"Color": {
+							"closed": false,
+							"children": {}
+						}
+					}
+				},
+				"Bump": {
+					"closed": true,
+					"children": {}
+				},
+				"Reflectivity": {
+					"closed": false,
+					"children": {
+						"Color": {
+							"closed": false,
+							"children": {}
+						}
+					}
+				},
+				"Reflection": {
+					"closed": false,
+					"children": {
+						"Color": {
+							"closed": false,
+							"children": {}
+						}
+					}
+				},
+				"Micro Surface": {
+					"closed": true,
+					"children": {}
+				},
+				"Metallic / Roughness": {
+					"closed": true,
+					"children": {
+						"Metallic Workflow": {
+							"closed": false,
+							"children": {}
+						},
+						"Roughness Workflow": {
+							"closed": false,
+							"children": {}
+						}
+					}
+				},
+				"Sub Surface": {
+					"closed": true,
+					"children": {
+						"Tint Color": {
+							"closed": false,
+							"children": {}
+						},
+						"Thickness Texture": {
+							"closed": true,
+							"children": {}
+						}
+					}
+				},
+				"Sub Surface (Refraction)": {
+					"closed": true,
+					"children": {}
+				},
+				"Sub Surface (Translucency)": {
+					"closed": true,
+					"children": {}
+				},
+				"Clear Coat": {
+					"closed": true,
+					"children": {
+						"Bump Texture": {
+							"closed": true,
+							"children": {}
+						}
+					}
+				},
+				"Anisotropy": {
+					"closed": true,
+					"children": {
+						"Direction": {
+							"closed": true,
+							"children": {}
+						},
+						"Texture": {
+							"closed": true,
+							"children": {}
+						}
+					}
+				},
+				"Sheen": {
+					"closed": true,
+					"children": {
+						"Color": {
+							"closed": true,
+							"children": {}
+						},
+						"Texture": {
+							"closed": true,
+							"children": {}
+						}
+					}
+				},
+				"Opacity": {
+					"closed": true,
+					"children": {}
+				},
+				"Emissive": {
+					"closed": true,
+					"children": {
+						"Emissive": {
+							"closed": false,
+							"children": {}
+						}
+					}
+				},
+				"Ambient": {
+					"closed": true,
+					"children": {
+						"Ambient": {
+							"closed": false,
+							"children": {}
+						}
+					}
+				},
+				"Lightmap": {
+					"closed": true,
+					"children": {}
+				},
+				"Refraction (backward compatibility)": {
+					"closed": true,
+					"children": {}
+				},
+				"Options": {
+					"closed": false,
+					"children": {}
+				}
+			}
+		},
+		{
+			"id": "PBR-METALLIC-ROUGHNESS-MATERIAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "PBR-SPECULAR-GLOSSINESS-MATERIAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "WATER-MATERIAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "CUSTOM-MATERIAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "SKY-MATERIAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "FIRE-MATERIAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "CELL-MATERIAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "GRID-MATERIAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "TRI-PLANAR-MATERIAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "TERRAIN-MATERIAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "LAVA-MATERIAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "FUR-MATERIAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "MIX-MATERIAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "POST-PROCESSES-TOOL",
+			"state": {
+				"Standard": {
+					"closed": false,
+					"children": {}
+				},
+				"Default": {
+					"closed": false,
+					"children": {}
+				},
+				"SSAO": {
+					"closed": false,
+					"children": {}
+				},
+				"SSAO 2": {
+					"closed": false,
+					"children": {}
+				}
+			}
+		},
+		{
+			"id": "CUSTOM-POST-PROCESS-TOOL",
+			"state": null
+		},
+		{
+			"id": "TEXTURE-TOOL",
+			"state": {
+				"Common": {
+					"closed": false,
+					"children": {}
+				},
+				"Texture": {
+					"closed": false,
+					"children": {}
+				},
+				"Angles": {
+					"closed": true,
+					"children": {}
+				}
+			}
+		},
+		{
+			"id": "BRICK-PROCEDURAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "CLOUD-PROCEDURAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "FIRE-PROCEDURAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "GRASS-PROCEDURAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "MARBLE-PROCEDURAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "NORMAL-PROCEDURAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "PERLIN-NOISE-PROCEDURAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "ROAD-PROCEDURAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "WOOD-PROCEDURAL-TOOL",
+			"state": null
+		},
+		{
+			"id": "GROUND-TOOL",
+			"state": null
+		}
+	]
+}
